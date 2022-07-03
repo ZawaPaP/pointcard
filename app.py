@@ -124,9 +124,9 @@ def register():
         # Redirect user to home page
         return redirect("/")
 
+
     # User reached route via GET (as by clicking a link or via redirect)
     if request.method == "GET":
-        print("request register")
         return render_template("register.html")
 
 
